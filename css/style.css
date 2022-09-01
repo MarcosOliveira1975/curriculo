@@ -1,0 +1,389 @@
+:root {
+    --color-primary: rgb(112, 109, 109);
+    --color-secondary: rgb(87, 87, 95);
+    --color-primary-light: rgb(168, 168, 173);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-color: var(--color-primary-light);*/
+}
+
+/************
+   HEADER
+************/
+
+.home {
+    background-size: cover;
+    padding: 10px;
+}
+
+.home .header {
+    background-color: var(--color-secondary);
+    padding: 30px 10px;
+}
+
+.home .header .nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-secondary);
+}
+
+.home .header .nav ul  {
+    display: flex;
+    list-style: none;
+    background-color: var(--color-secondary);
+}
+
+.home .header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px 40px;
+    background-color: var(--color-secondary);
+    
+}
+
+.home .header .nav ul li a:hover {
+    border-bottom: 1px solid var(--color-primary-light);
+    color: var(--color-primary-light);
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+/************
+    INFOS
+************/
+
+.informacoes {
+    display: flex;
+    margin-top: 20px;
+    background-color: var(--color-primary-light);
+    color: white;
+    justify-items: center;
+    height: 564px;
+    size: 100vh;
+    padding: 10px;
+    border-radius: 10% 10%;
+}
+
+.informacoes img {
+    height: 80%;
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    
+}
+
+.informacoes .infos {
+    padding: 10px;
+}
+
+.informacoes .infos h3 {
+    margin-left: 400px;
+}
+
+.informacoes .infos p {
+    margin-top: 25px;
+    color: var(--color-secondary);
+    line-height: 2.8;
+    margin-left: 400px;
+}
+
+.informacoes .infos span a {
+    margin-left: 90%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/************
+COMPETÊNCIAS
+************/
+
+.competencias {
+    margin: 30px;
+    
+}
+
+.competencias .comp {
+    background-color: var(--color-primary);
+    padding: 30px;
+    height: 564px;
+    size: 100vh;
+    border-radius: 10% 10%;
+}
+
+.competencias h3 {
+    color: white;
+}
+
+.competencias ul {
+    margin-top: 20px;
+    color: white
+}
+
+.competencias ul li {
+    margin-top: 15px;
+    line-height: 3;
+    margin-left: 60px;
+    list-style: circle;
+}
+
+.competencias ul li:last-of-type {
+    margin-bottom: 30px;
+}
+
+.competencias .comp span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 95%;
+    font-size: 15px;
+    color: var(--color-primary-light);
+}
+
+/********************
+  FORMAÇÃO ACADÊMICA
+*********************/
+
+.formacao {
+    margin: 30px;
+}
+
+.formacao .forma {
+    background-color: var(--color-secondary);
+    padding: 30px;
+    height: 564px;
+    size: 100vh;
+    border-radius: 10% 10%;
+}
+
+.formacao h3 {
+    color: white;
+    margin-left: 60px;
+}
+
+.formacao ul {
+    margin-top: 20px;
+    color: white
+    
+}
+
+.formacao ul li {
+    margin-top: 15px;
+    line-height: 3;
+    margin-left: 60px;
+    list-style: none;
+   
+}
+
+.forma ul li:last-of-type {
+    margin-bottom: 100px;
+}
+
+.formacao .forma span {
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 100px;
+
+}
+
+.formacao .forma p {
+    margin-top: -20px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.formacao .forma span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 85%;
+    font-size: 15px;
+}
+
+/*************************
+EXPERIÊNCIAS PROFISSIONAIS
+**************************/
+
+.experiencias {
+    margin: 20px;
+}
+
+.experiencias .exper {
+    background-color: var(--color-secondary);
+    padding: 30px;
+    height: 564px;
+    size: 100vh;
+    border-radius: 10% 10%;
+}
+
+.experiencias h3 {
+    color: white;
+    margin-left: 250px;
+}
+
+.experiencias ul {
+    margin-top: 20px;
+    color: white
+    
+}
+
+.experiencias ul li {
+    margin-top: 15px;
+    line-height: 3;
+    margin-left: 250px;
+    font-size: 20px;
+    
+}
+
+.exper ul li:last-of-type {
+    margin-bottom: 150px;
+}
+
+.experiencias .exper span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 95%;
+    font-size: 15px;
+    color: var(--color-primary-light);
+}
+
+/************
+   IDIOMAS
+************/
+
+.idiomas {
+    margin: 20px;
+}
+
+.idiomas .idiom {
+    background-color: var(--color-primary-light);
+    padding: 30px;
+    height: 564px;
+    size: 100vh;
+    color: var(--color-secondary);
+    border-radius: 10% 10%;
+}
+
+.idiomas h3 {
+    color: var(--color-secondary);
+    margin-left: 60px;
+}
+
+.idiomas ul {
+    margin-top: 20px;
+    color: var(--color-secondary);
+    
+}
+
+.idiomas ul li {
+    margin-top: 15px;
+    line-height: 3;
+    margin-left: 60px;
+    list-style: none;
+   
+}
+
+.idiom ul li:last-of-type {
+    margin-bottom: 250px;
+}
+
+.idiomas .idiom span {
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 100px;
+
+}
+
+.idiomas .idiom p {
+    margin-top: -20px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.idiomas .idiom span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 85%;
+    font-size: 15px;
+}
+
+/************
+  PORTFÓLIO
+************/
+
+.portfolio {
+    margin: 20px;
+}
+
+.portfolio .port {
+    background-color: var(--color-secondary);
+    padding: 30px;
+    height: 564px;
+    size: 100vh;
+    border-radius: 10% 10%;
+}
+
+.portfolio h3 {
+    color: white;
+    margin-left: 60px;
+}
+
+.portfolio ul {
+    margin-top: 20px;
+    color: white
+    
+}
+
+.portfolio ul li {
+    margin-top: 15px;
+    line-height: 3;
+    margin-left: 60px;
+    list-style: none;
+   
+}
+
+.port ul li:last-of-type {
+    margin-bottom: 100px;
+}
+
+.portfolio .port span {
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 100px;
+
+}
+
+.portfolio .port p {
+    margin-top: -20px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.portfolio .port span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 85%;
+    font-size: 15px;
+}
+
+.portfolio .port ul p a {
+    text-decoration: none;
+    color: var(--color-primary-light);
+}
+
+.portfolio .port img {
+    bottom: -2950px;
+    position: absolute;
+    left: 600px;
+    width: 500px;
+}
